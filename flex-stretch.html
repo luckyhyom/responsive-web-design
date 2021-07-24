@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 25%;
+            list-style: none;
+        }
+
+        li {
+            width: 50%;
+            /* align-content: stretch; */
+            padding: 16px;
+        }
+
+        .circle {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: orange;
+        }
+
+        p {
+            word-wrap: break-word;
+            /* word-break: normal; */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li style="display: flex; flex-direction: column;">
+            <div>Title</div>
+            <p style="flex: 1;">this is about flex...i'm a problem! ajsndjkasndjaksndaklsndlaksnd</p>
+            <p><span class="circle" style="display: inline-block;"></span><span>HTML</span></p>
+        </li>    
+        <li style="display: flex; flex-direction: column;">
+            <div>Title</div>
+            <p style="flex: 1;">this is about flex</p>
+            <p><span class="circle" style="display: inline-block;"></span><span>HTML</span></p></li>    
+        <li style="display: flex; flex-direction: column;">
+            <div>Title</div>
+            <p style="flex: 1;">this is about flex</p>
+            <p><span class="circle" style="display: inline-block;"></span><span>HTML</span></p>
+        </li>    
+        <li style="display: flex; flex-direction: column;">
+            <div>Title</div>
+            <p style="flex: 1;">this is about flex</p>
+            <p><span class="circle" style="display: inline-block;"></span><span>HTML</span></p>
+        </li>    
+    </ul>
+</body>
+</html>
